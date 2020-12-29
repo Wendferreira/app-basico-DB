@@ -1,0 +1,20 @@
+expo init nomeAPP - cria o APP
+
+expo start - Inicializar o expo
+
+
+
+
+
+
+NODEMOM - nodemom Araquivo.js
+
+
+Para criação das tabelas do banco, utilizaremos o módulo Sequelize, instalado na última ala. Esses comandos deverão ser executados no nosso terminal dentro da pasta c:/Project
+
+npx sequelize-cli model:generate --name User --attributes name:string,password:string
+
+
+Agora estamos prontos para migrar o nosso banco. Basta rodarmos o comando abaixo:
+
+npx sequelize-cli db:migrate
